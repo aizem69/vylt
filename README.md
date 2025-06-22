@@ -1,12 +1,12 @@
 
-# VYLT – The Grind Vault 🏋️‍♂️
+VYLT – The Grind Vault 🏋️‍♂️
 
-**VYLT (Visualise Your Life Transformation)** is a personal fitness tracking web app built with Flask.  
+VYLT (Visualise Your Life Transformation) is a personal fitness tracking web app built with Flask.  
 Developed from scratch while working full-time factory shifts, this MVP is proof of commitment, consistency, and passion for becoming a backend Python developer.
 
----
 
-## 💡 Features
+
+Features
 
 ✅ User Registration & Login (Session-based)  
 ✅ Weight Logging + BMI Calculation  
@@ -18,9 +18,8 @@ Developed from scratch while working full-time factory shifts, this MVP is proof
 ✅ Weight Progress Chart (Matplotlib)  
 ✅ CSV-based data handling (upgradeable to SQL)
 
----
 
-## 🖥️ Tech Stack
+Tech
 
 - **Python 3.10+**
 - **Flask (Backend)**
@@ -28,15 +27,7 @@ Developed from scratch while working full-time factory shifts, this MVP is proof
 - **Matplotlib (Chart)**
 - **CSV** (for user data, logs, plans)
 
----
-
-## 📸 Screenshots
-
-> *Include screenshots of dashboard, weight log, and progress chart here if needed.*
-
----
-
-## 🚀 Getting Started
+Getting Started
 
 1. **Clone the repo:**
 ```bash
@@ -57,9 +48,9 @@ python app.py
 4. **Open in browser:**  
 `http://localhost:5000`
 
----
 
-## 🛣️ Roadmap (Next Version: VYLT PRO)
+
+Roadmap (Next Version: VYLT PRO)
 
 ✔️ Move from CSV to MySQL  
 ✔️ Migrate Flask → Django  
@@ -69,14 +60,14 @@ python app.py
 ✔️ Admin Panel (Django built-in)  
 ✔️ Hosting on Render / PythonAnywhere
 
----
 
-## ✍️ Author
 
-**Hazim aka aizem69**  
-Learning Python while working full-time, aiming to become a professional developer in 2025.
+Author
 
----
+Mohd Hazim bin Mohd Safie 
+Learning Python while working full-time, aiming to become a professional developer.
 
-> “Don’t wait for opportunity. Build it while grinding.”
+
+
+
 
