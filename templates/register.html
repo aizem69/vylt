@@ -1,0 +1,49 @@
+{% extends 'layout.html' %} {% block content %}
+<div class="row justify-content-center">
+  <div class="col-md-8 col-lg-5">
+    <h2 class="text-center mb-4">Register for VYLT</h2>
+
+    <form method="POST">
+      <div class="mb-3">
+        <label for="name" class="form-label">Name</label>
+        <input type="text" class="form-control" name="name" required />
+      </div>
+      <div class="mb-3">
+        <label for="password" class="form-label">Password</label>
+        <input type="password" class="form-control" name="password" required />
+      </div>
+      <div class="mb-3">
+        <label for="umur" class="form-label">Age</label>
+        <input type="number" class="form-control" name="umur" required />
+      </div>
+      <div class="mb-3">
+        <label for="weight" class="form-label">Weight (kg)</label>
+        <input
+          type="number"
+          class="form-control"
+          name="weight"
+          step="0.1"
+          required
+        />
+      </div>
+      <div class="mb-3">
+        <label for="height" class="form-label">Height (cm)</label>
+        <input type="number" class="form-control" name="height" required />
+      </div>
+      <div class="mb-3">
+        <label for="goal" class="form-label">Goal</label>
+        <select class="form-select" name="goal" required>
+          <option value="bulk">Build Muscle</option>
+          <option value="cut">Lose Fat</option>
+          <option value="fit">Stay Fit</option>
+        </select>
+      </div>
+      <button type="submit" class="btn btn-success w-100">Register</button>
+    </form>
+
+    <p class="mt-3 text-center">
+      Already registered? <a href="/login" class="text-info">Login here</a>
+    </p>
+  </div>
+</div>
+{% endblock %}
